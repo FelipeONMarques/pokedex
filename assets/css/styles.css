@@ -1,0 +1,51 @@
+@import url(global.css);
+@import url(pokedex.css);
+
+body{
+    background-color: #f6f8fc;
+}
+
+.content {
+    padding: 1rem;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content h1 {
+    margin: 0;
+}
+
+
+/*----------------------- RESPONSIVE -------------------------*/
+
+
+
+@media screen and (min-width: 992px) { 
+.content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .pokemons{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pokemons{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
