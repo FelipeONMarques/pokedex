@@ -15,3 +15,6 @@ O que foi aprendido:
 
 ## Tamanho min-width: 350px
 <img src="assets\img\imagem_pokedex_responsive2.png" alt="imagem responsiva de 350px">
+
+
+Link para ver o projeto Pokédex: https://felipeonmarques.github.io/pokedex/
